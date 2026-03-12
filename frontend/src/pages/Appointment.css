@@ -1,0 +1,38 @@
+.booking-slots-row {
+  display: flex;
+  gap: 5px;
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+.booking-slot {
+  min-width: 80px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  font-size: 13px;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.booking-slot:hover {
+  background-color: #f3f4f6;
+}
+
+.booking-slot.active {
+  background-color:rgba(2, 2, 254, 0.493);
+  color: #ffffff;
+  border: none;
+}
+
+.booking-slot .day {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.booking-slot .date {
+  font-size: 15px;
+  font-weight: 600;
+}
